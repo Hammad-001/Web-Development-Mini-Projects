@@ -1,0 +1,197 @@
+body {
+    background-color: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width: 1050px;
+    margin: 0 auto;
+    display: block;
+}
+
+#header {
+    height: 100px;
+    padding: 20px 0;
+}
+
+#brand {
+    float: left;
+}
+
+h1 a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+}
+
+#search {
+    float: right;
+    width: 400px;
+    height: 50px;
+    background: linear-gradient(to bottom, plum, purple);
+    background: -webkit-linear-gradient(to bottom, plum, purple);
+    background: -o-linear-gradient(to bottom, plum, purple);
+    background: -moz-linear-gradient(to bottom, plum, purple);
+    padding: 20px 20px 0px 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.search-box {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid black;
+    color: red;
+    background: white url(img/search.png) right center no-repeat;
+}
+
+.text {
+    float: right;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px;
+    background-color: purple;
+    border: 1px solid black;
+    color: white;
+}
+
+.text:hover {
+    cursor: pointer;
+}
+
+.clearF {
+    clear: both;
+}
+
+#menu {
+    height: 60px;
+    padding: 5px 0px;
+    border-radius: 10px 10px 0px 0px;
+    background: linear-gradient(to bottom, plum, purple);
+    background: -webkit-linear-gradient(to bottom, plum, purple);
+    background: -o-linear-gradient(to bottom, plum, purple);
+    background: -moz-linear-gradient(to bottom, plum, purple);
+}
+
+ul {
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+    padding: 0px 30px;
+    height: 30px;
+    line-height: 30px;
+    border-right: 1px solid black;
+}
+
+#menu ul li:last-child {
+    border-right: none;
+}
+
+#menu ul li a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    -webkit-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover,
+#menu ul li a.active {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#intro-box {
+    padding: 30px;
+    margin: 20px 0px;
+    border-radius: 0px 0px 10px 10px;
+    background: linear-gradient(to bottom, purple, plum);
+    background: -webkit-linear-gradient(to bottom, purple, plum);
+    background: -o-linear-gradient(to bottom, purple, plum);
+    background: -moz-linear-gradient(to bottom, purple, plum);
+}
+
+#intro-box h3 {
+    font-weight: normal;
+    color: black;
+    font-size: 2.4em;
+}
+
+#intro-box p {
+    font-size: 1.4rem;
+    color: black;
+    text-align: justify;
+}
+
+#leftsidebar {
+    float: left;
+}
+
+#leftsidebar ul li {
+    padding: 4px 0px 4px 10px;
+    list-style-image: url(img/arrow.png);
+}
+
+#rightsidebar {
+    float: right;
+}
+
+#rightsidebar ul li {
+    padding: 15px 0px 15px 50px;
+    background: url(img/tick.png) left center no-repeat;
+}
+
+.sidebar {
+    height: 500px;
+    width: 450px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: plum;
+}
+
+.sidebar h3 {
+    font-size: 1.6rem;
+}
+
+.sidebar ul {
+    padding-top: 5px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    -webkit-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footer {
+    height: 60px;
+    padding: 10px 30px;
+    margin: 10px 0px;
+    border-radius: 10px 10px 0px 0px;
+    color: black;
+    background: linear-gradient(to bottom, plum, purple);
+    background: -webkit-linear-gradient(to bottom, plum, purple);
+    background: -o-linear-gradient(to bottom, plum, purple);
+    background: -moz-linear-gradient(to bottom, plum, purple);
+}
