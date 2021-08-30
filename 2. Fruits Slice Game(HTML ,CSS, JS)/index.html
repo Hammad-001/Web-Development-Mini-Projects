@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,, user-scalable=yes">
-
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <title>Fruit Slice Game</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
 </head>
 
 <body>
@@ -16,11 +18,12 @@
         <div id="score">
             Score: <span id="scorevalue"> 0 </span>
         </div>
-        <div id="Life">
-            Life: <span id="life"></span>
+        <div id="life">
+            <span id="Life">  </span>
         </div>
 
         <div id="window">
+            <img id="fruits" class="fruit">
         </div>
         <div id="paragraph">
             <p>Catch Fruits</p>
@@ -34,8 +37,12 @@
             <p>Game Over</p>
             <p>Your score is <span id="finalScore"> </span>.</p>
         </div>
+        <audio id="sliceSound">
+            <source src="audio/slicefruit.mp3">
+            <source src="audio/slicefruit.ogg">
+        </audio>
     </div>
-    <script src="javascript.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
