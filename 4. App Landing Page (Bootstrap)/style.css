@@ -1,93 +1,171 @@
-.bg-img {
-    background: url(img/travel-img.jpg) center center;
-    background-size: cover;
-    height: 500px;
-}
-
-#logo {
-    width: 70px;
-}
-
-.container h1 {
-    font-size: 4rem;
-}
-
-.container p,
-.btn-default {
-    font-size: 2rem;
-}
-
-#paragraph {
-    margin-top: 50px;
-}
-
-#paragraph .btn-default {
-    background-color: white;
-}
-
-#paragraph .btn-default:hover {
-    color: white;
-    background-color: brown;
-}
-
-@media (min-width:768px) and (max-width:1280px) {
-    .bg-img {
-        height: 410px;
-    }
-    #logo {
-        width: 60px;
-    }
-    .container h1 {
-        font-size: 2.5rem;
-    }
-    .container p {
-        font-size: 1.2rem;
-    }
-    #paragraph .btn-default {
-        font-size: 1rem;
-    }
-}
-
-@media (min-width:480px) and (max-width:768px) {
-    .bg-img {
-        height: 330px;
-    }
-    #logo {
-        width: 50px;
-    }
-    .container h1 {
-        font-size: 2rem;
-    }
-    .container p {
-        font-size: 1rem;
-    }
-    #paragraph {
-        text-align: center;
-        margin-top: 0px;
-    }
-    #paragraph .btn-default {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width:480px) {
-    .bg-img {
-        height: 300px;
-    }
-    #logo {
-        width: 40px;
-    }
-    .container h1 {
-        font-size: 1.4rem;
-    }
-    .container p {
-        font-size: 0.8rem;
-    }
-    #paragraph {
-        text-align: center;
-        margin-top: -10px;
-    }
-    #paragraph .btn-default {
-        font-size: 0.8rem;
-    }
-}
+        .bg-img {
+            background: url(img/travel-img.jpg) center center;
+            background-size: cover;
+            height: 500px;
+        }
+        
+        #logo {
+            width: 70px;
+        }
+        
+        .container h1 {
+            font-size: 4rem;
+        }
+        
+        .container p,
+        .btn-default {
+            font-size: 2rem;
+        }
+        
+        #container {
+            margin-top: 100px;
+        }
+        
+        #paragraph {
+            margin-top: 50px;
+        }
+        
+        #paragraph .btn-default {
+            background-color: white;
+        }
+        
+        #paragraph .btn-default:hover {
+            color: white;
+            background-color: brown;
+        }
+        
+        #heading {
+            font-size: 3rem;
+        }
+        
+        .str-img {
+            margin: 60px;
+        }
+        
+        #img-1 {
+            height: 70px;
+        }
+        
+        #img-2 {
+            height: 70px;
+        }
+        
+        .footer {
+            padding: 10px;
+            background-color: black;
+            margin-top: 100px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: white;
+        }
+        
+        .footer p {
+            padding: 0px;
+        }
+        
+        @media (min-width: 768px) and (max-width: 1280px) {
+            .bg-img {
+                height: 410px;
+            }
+            #logo {
+                width: 60px;
+            }
+            .container h1 {
+                font-size: 2.5rem;
+            }
+            .container p {
+                font-size: 1.2rem;
+            }
+            #paragraph .btn-default {
+                font-size: 1rem;
+            }
+            .str-img {
+                margin: 40px;
+            }
+            #img-1 {
+                height: 50px;
+            }
+            #img-2 {
+                height: 50px;
+            }
+            .footer {
+                padding: 6px;
+            }
+            #heading {
+                font-size: 2.4rem;
+            }
+        }
+        
+        @media (min-width:480px) and (max-width:768px) {
+            .bg-img {
+                height: 330px;
+            }
+            #logo {
+                width: 50px;
+            }
+            .container h1 {
+                font-size: 2rem;
+            }
+            .container p {
+                font-size: 1rem;
+            }
+            #paragraph {
+                text-align: center;
+                margin-top: 0px;
+            }
+            #paragraph .btn-default {
+                font-size: 1rem;
+            }
+            .str-img {
+                margin: 30px;
+            }
+            #img-1 {
+                height: 40px;
+            }
+            #img-2 {
+                height: 40px;
+            }
+            .footer {
+                padding: 6px;
+            }
+            #heading {
+                font-size: 2rem;
+            }
+        }
+        
+        @media (max-width:480px) {
+            .bg-img {
+                height: 300px;
+            }
+            #logo {
+                width: 40px;
+            }
+            .container h1 {
+                font-size: 1.4rem;
+            }
+            .container p {
+                font-size: 0.8rem;
+            }
+            #paragraph {
+                text-align: center;
+                margin-top: -10px;
+            }
+            #paragraph .btn-default {
+                font-size: 0.8rem;
+            }
+            .str-img {
+                margin: 20px;
+            }
+            #img-1 {
+                height: 30px;
+            }
+            #img-2 {
+                height: 30px;
+            }
+            .footer {
+                padding: 4px;
+            }
+            #heading {
+                font-size: 1.6rem;
+            }
+        }
