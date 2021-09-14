@@ -1,0 +1,14 @@
+.Heading {
+    font-size: 90px;
+    font-weight: 500;
+    background: linear-gradient(to right, #4165FF, #AB38F0, #FA5A8F, #FF5C87);
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+}
+
+.Text {}
