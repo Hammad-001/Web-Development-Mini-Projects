@@ -1,5 +1,7 @@
 .Heading {
-    font-size: 90px;
+    font-size: 70px;
+    padding: 0px;
+    margin: 0px;
     font-weight: 500;
     background: linear-gradient(to right, #4165FF, #AB38F0, #FA5A8F, #FF5C87);
     -webkit-text-fill-color: transparent;
@@ -11,4 +13,6 @@
     background-clip: text;
 }
 
-.Text {}
+#Text {
+    width: 400px;
+}
