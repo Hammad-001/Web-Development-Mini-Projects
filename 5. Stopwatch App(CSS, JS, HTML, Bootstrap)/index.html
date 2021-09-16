@@ -26,19 +26,19 @@
             <div class="header">Stopwatch</div>
         </div>
         <div class="row">
-            <div class="time col-sm-6">
-                <span class="timeminutes">00</span> :
-                <span class="timeseconds">00</span> :
-                <span class="timecentiseconds">00</span>
+            <div class="time col-6 col-sm-6 col-md-6">
+                <span id="timeminutes">00</span> :
+                <span id="timeseconds">00</span> :
+                <span id="timecentiseconds">00</span>
             </div>
-            <div class="lap col-sm-3 offset-sm-3">
-                <span class="lapminutes">00</span> :
-                <span class="lapseconds">00</span> :
-                <span class="lapcentiseconds">00</span>
+            <div class="lap col-sm-4 col-5 col-lg-3 col-md-5 offset-lg-2 offset-sm-2 offset-md-1 offset-1">
+                <span id="lapminutes">00</span> :
+                <span id="lapseconds">00</span> :
+                <span id="lapcentiseconds">00</span>
             </div>
         </div>
         <div id="controls" class="row">
-            <div class="col-sm-2 offset-sm-1">
+            <div class="col-sm-2 col-2 offset-1 offset-sm-1">
                 <div id="start" class="control">
                     Start
                 </div>
@@ -49,7 +49,7 @@
                     Stop
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 col-3">
                 <div id="lap" class="control">
                     Lap
                 </div>
@@ -58,22 +58,15 @@
                 </div>
             </div>
         </div>
-        <div class="lap-box">
+        <div id="lap-text">Laps</div>
+        <div class="clear">
+            <!--Just clearing floats-->
+        </div>
+        <div id="lap-box">
 
         </div>
     </div>
-    <script src="javascript.js">
-        hideShow("#start", "#lap");
-
-
-
-
-        function hideShow(X, Y) {
-            $(".control").hide();
-            X.show();
-            Y.show();
-        };
-    </script>
+    <script src="javascript.js"></script>
 </body>
 
 </html>
