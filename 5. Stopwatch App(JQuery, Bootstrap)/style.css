@@ -4,3 +4,14 @@ body {
     background-repeat: no-repeat;
     color: white;
 }
+
+#header {}
+
+.logo {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.heading {
+    font-size: 200px;
+}
