@@ -1,17 +1,59 @@
 body {
-    background: url(img/background.jpg) center center fixed;
+    background: url(img/background_img.jpg) center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    color: darkslategray;
+}
+
+.image {
+    margin-left: -2%;
+}
+
+.header {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 30px;
+}
+
+.img {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 70px;
+}
+
+.lap {
+    font-size: 3rem;
+}
+
+.lapbox {
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+.time {
+    text-align: left;
+    font-size: 6rem;
+    margin-top: 50px;
+}
+
+#controls {
+    text-align: left;
+    font-size: 1rem;
     color: white;
 }
 
-#header {}
-
-.logo {
-    margin-left: 20px;
-    margin-top: 20px;
+.control {
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 22px;
+    border-radius: 50%;
+    background-color: #DE5C5C;
 }
 
-.heading {
-    font-size: 200px;
+.control:active {
+    color: #DE5C5C;
+    background-color: white;
 }
