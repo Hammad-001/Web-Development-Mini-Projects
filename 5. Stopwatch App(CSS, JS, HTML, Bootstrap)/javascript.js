@@ -5,5 +5,18 @@ $(function() {
     var actionRun; // to start the loop
     var numberOfLaps = 0;
 
+    var timeMinutes, timeSeconds, timeCentiSeconds, lapMinutes, lapSeconds, lapCentiSeconds; //time variables
+
+    //When App is loaded
+    hideShow("#start", "#lap");
+
+
+
+
+    function hideShow(X, Y) {
+        $(".control").hide();
+        $(X).show();
+        $(Y).show();
+    };
 
 });
